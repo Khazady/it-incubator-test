@@ -1,0 +1,36 @@
+section {
+  text-align: center;
+  transform: translateY(250px);
+}
+section ul {
+  list-style: none;
+}
+section form input {
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+}
+section form input[type="text"] {
+  width: 40%;
+  height: 30px;
+  padding-left: 15px;
+}
+section form input[type="text"]:hover {
+  box-shadow: 0px 0px 10px -3px #999399;
+  cursor: text;
+}
+section form input[type="text"]:focus {
+  box-shadow: 0px 0px 10px -3px #999399;
+}
+section form input[type="submit"] {
+  background-color: #e6e6e6;
+  width: 10%;
+  height: 35px;
+  margin-top: 30px;
+}
+section form input[type="submit"]:hover {
+  cursor: pointer;
+}
